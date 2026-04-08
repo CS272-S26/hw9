@@ -10,13 +10,13 @@ You may **NOT** use `innerHTML` for this assignment. You must create elements us
 
 ## Instructions
 
-### 1. Fetch & Map Books
+### 1. Fetch Books
 
-Fetch the book data from `https://cs272.cs.wisc.edu/rest/s26/hw9/books` and call the `createBookComponent` function, passing along the data for the book, and appending the resulting node to the `book-list`. You will display data for each node in the next step.
+Fetch the book data from `https://cs272.cs.wisc.edu/rest/s26/hw9/books` and call the `appendBookComponent` function, passing along the data for the book. You will display the data in the next step.
 
 ### 2. Display Book Data
 
-For each of the book components, display its title, author, number of pages, and description. We will re-visit the ratings later on in Step 5.
+For each of the book components, display its title, author, number of pages, and description by appending it as a card to the `book-list`. We will re-visit the ratings later on in Step 5.
 
 How you choose to display this information is up to you, but it must be contained within a Bootstrap card!
 
