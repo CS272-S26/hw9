@@ -4,5 +4,5 @@ const booksDivNode = document.getElementById("book-list")
 //      component for each book to the book-list! 
 
 function appendBookComponent(bookData) {
-    // TODO Create and return a node for the given bookData!
+    // TODO Create and insert a node for the given bookData!
 }
